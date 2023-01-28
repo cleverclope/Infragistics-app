@@ -1,0 +1,28 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.navbar {
+  height: max-content;
+  min-width: min-content;
+}
+.view-container {
+  overflow: auto;
+  position: relative;
+  flex-grow: 1;
+}
+.avatar {
+  background-color: transparent;
+  --background: none;
+  margin: 0 8px 0 0;
+}
+.button {
+  color: hsla(var(--igx-grays-900));
+  margin: 0 8px 0 0;
+  height: max-content;
+  min-width: min-content;
+}
